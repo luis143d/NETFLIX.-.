@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font/style.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script defer src="js/app.js"></script>
+</head>
+
+<body>
+    
+    <header class="header">
+        <h1 class="header__h1">
+            <a href="https://www.facebook.com/lusianaluna.roldan"target="_blank" title="facebook" class="header__a">
+                <svg class="header__img" viewBox="0 0 111 30" focusable="false"><g id="netflix-logo"><path class="xe3v8dz" d="M25 23l.8-5H21v-3.5c0-1.4.5-2.5 2.7-2.5H26V7.4c-1.3-.2-2.7-.4-4-.4-4.1 0-7 2.5-7 7v4h-4.5v5H15v12.7c1 .2 2 .3 3 .3s2-.1 3-.3V23h4z"></path></g></svg>
+            </a>
+            <a href="https://www.instagram.com/l.f.ti/"target="_blank" title="instagram" class="header__a">
+                <svg class="header__img" viewBox="0 0 111 30" focusable="false"><g id="netflix-logo"><path clip-rule="evenodd" d="M37.82 4.11c-2.32.97-4.86 3.7-5.66 7.13-1.02 4.34 3.21 6.17 3.56 5.57.4-.7-.76-.94-1-3.2-.3-2.9 1.05-6.16 2.75-7.58.32-.27.3.1.3.78l-.06 14.46c0 3.1-.13 4.07-.36 5.04-.23.98-.6 1.64-.33 1.9.32.28 1.68-.4 2.46-1.5a8.13 8.13 0 0 0 1.33-4.58c.07-2.06.06-5.33.07-7.19 0-1.7.03-6.71-.03-9.72-.02-.74-2.07-1.51-3.03-1.1Zm82.13 14.48a9.42 9.42 0 0 1-.88 3.75c-.85 1.72-2.63 2.25-3.39-.22-.4-1.34-.43-3.59-.13-5.47.3-1.9 1.14-3.35 2.53-3.22 1.38.13 2.02 1.9 1.87 5.16ZM96.8 28.57c-.02 2.67-.44 5.01-1.34 5.7-1.29.96-3 .23-2.65-1.72.31-1.72 1.8-3.48 4-5.64l-.01 1.66Zm-.35-10a10.56 10.56 0 0 1-.88 3.77c-.85 1.72-2.64 2.25-3.39-.22-.5-1.69-.38-3.87-.13-5.25.33-1.78 1.12-3.44 2.53-3.44 1.38 0 2.06 1.5 1.87 5.14Zm-13.41-.02a9.54 9.54 0 0 1-.87 3.8c-.88 1.7-2.63 2.24-3.4-.23-.55-1.77-.36-4.2-.13-5.5.34-1.95 1.2-3.32 2.53-3.2 1.38.14 2.04 1.9 1.87 5.13Zm61.45 1.81c-.33 0-.49.35-.61.93-.44 2.02-.9 2.48-1.5 2.48-.66 0-1.26-1-1.42-3-.12-1.58-.1-4.48.06-7.37.03-.59-.14-1.17-1.73-1.75-.68-.25-1.68-.62-2.17.58a29.65 29.65 0 0 0-2.08 7.14c0 .06-.08.07-.1-.06-.07-.87-.26-2.46-.28-5.79 0-.65-.14-1.2-.86-1.65-.47-.3-1.88-.81-2.4-.2-.43.5-.94 1.87-1.47 3.48l-.74 2.2.01-4.88c0-.5-.34-.67-.45-.7a9.54 9.54 0 0 0-1.8-.37c-.48 0-.6.27-.6.67 0 .05-.08 4.65-.08 7.87v.46c-.27 1.48-1.14 3.49-2.09 3.49s-1.4-.84-1.4-4.68c0-2.24.07-3.21.1-4.83.02-.94.06-1.65.06-1.81-.01-.5-.87-.75-1.27-.85-.4-.09-.76-.13-1.03-.11-.4.02-.67.27-.67.62v.55a3.71 3.71 0 0 0-1.83-1.49c-1.44-.43-2.94-.05-4.07 1.53a9.31 9.31 0 0 0-1.66 4.73c-.16 1.5-.1 3.01.17 4.3-.33 1.44-.96 2.04-1.64 2.04-.99 0-1.7-1.62-1.62-4.4.06-1.84.42-3.13.82-4.99.17-.8.04-1.2-.31-1.6-.32-.37-1-.56-1.99-.33-.7.16-1.7.34-2.6.47 0 0 .05-.21.1-.6.23-2.03-1.98-1.87-2.69-1.22-.42.39-.7.84-.82 1.67-.17 1.3.9 1.91.9 1.91a22.22 22.22 0 0 1-3.4 7.23v-.7c-.01-3.36.03-6 .05-6.95.02-.94.06-1.63.06-1.8 0-.36-.22-.5-.66-.67-.4-.16-.86-.26-1.34-.3-.6-.05-.97.27-.96.65v.52a3.7 3.7 0 0 0-1.84-1.49c-1.44-.43-2.94-.05-4.07 1.53a10.1 10.1 0 0 0-1.66 4.72c-.15 1.57-.13 2.9.09 4.04-.23 1.13-.89 2.3-1.63 2.3-.95 0-1.5-.83-1.5-4.67 0-2.24.07-3.21.1-4.83.02-.94.06-1.65.06-1.81 0-.5-.87-.75-1.27-.85-.42-.1-.79-.13-1.06-.1-.37.02-.63.35-.63.6v.56a3.7 3.7 0 0 0-1.84-1.49c-1.44-.43-2.93-.04-4.07 1.53-.75 1.03-1.35 2.17-1.66 4.7a15.8 15.8 0 0 0-.12 2.04c-.3 1.81-1.61 3.9-2.68 3.9-.63 0-1.23-1.21-1.23-3.8 0-3.45.22-8.36.25-8.83l1.62-.03c.68 0 1.29.01 2.19-.04.45-.02.88-1.64.42-1.84-.21-.09-1.7-.17-2.3-.18-.5-.01-1.88-.11-1.88-.11s.13-3.26.16-3.6c.02-.3-.35-.44-.57-.53a7.77 7.77 0 0 0-1.53-.44c-.76-.15-1.1 0-1.17.64-.1.97-.15 3.82-.15 3.82-.56 0-2.47-.11-3.02-.11-.52 0-1.08 2.22-.36 2.25l3.2.09-.03 6.53v.47c-.53 2.73-2.37 4.2-2.37 4.2.4-1.8-.42-3.15-1.87-4.3-.54-.42-1.6-1.22-2.79-2.1 0 0 .69-.68 1.3-2.04.43-.96.45-2.06-.61-2.3-1.75-.41-3.2.87-3.63 2.25a2.61 2.61 0 0 0 .5 2.66l.15.19c-.4.76-.94 1.78-1.4 2.58-1.27 2.2-2.24 3.95-2.97 3.95-.58 0-.57-1.77-.57-3.43 0-1.43.1-3.58.19-5.8.03-.74-.34-1.16-.96-1.54a4.33 4.33 0 0 0-1.64-.69c-.7 0-2.7.1-4.6 5.57-.23.69-.7 1.94-.7 1.94l.04-6.57c0-.16-.08-.3-.27-.4a4.68 4.68 0 0 0-1.93-.54c-.36 0-.54.17-.54.5l-.07 10.3c0 .78.02 1.69.1 2.09.08.4.2.72.36.91.15.2.33.34.62.4.28.06 1.78.25 1.86-.32.1-.69.1-1.43.89-4.2 1.22-4.31 2.82-6.42 3.58-7.16.13-.14.28-.14.27.07l-.22 5.32c-.2 5.37.78 6.36 2.17 6.36 1.07 0 2.58-1.06 4.2-3.74l2.7-4.5 1.58 1.46c1.28 1.2 1.7 2.36 1.42 3.45-.21.83-1.02 1.7-2.44.86-.42-.25-.6-.44-1.01-.71-.23-.15-.57-.2-.78-.04-.53.4-.84.92-1.01 1.55-.17.61.45.94 1.09 1.22.55.25 1.74.47 2.5.5 2.94.1 5.3-1.42 6.94-5.34.3 3.38 1.55 5.3 3.72 5.3 1.45 0 2.91-1.88 3.55-3.72.18.75.45 1.4.8 1.96 1.68 2.65 4.93 2.07 6.56-.18.5-.69.58-.94.58-.94a3.07 3.07 0 0 0 2.94 2.87c1.1 0 2.23-.52 3.03-2.31.09.2.2.38.3.56 1.68 2.65 4.93 2.07 6.56-.18l.2-.28.05 1.4-1.5 1.37c-2.52 2.3-4.44 4.05-4.58 6.09-.18 2.6 1.93 3.56 3.53 3.69a4.5 4.5 0 0 0 4.04-2.11c.78-1.15 1.3-3.63 1.26-6.08l-.06-3.56a28.55 28.55 0 0 0 5.42-9.44s.93.01 1.92-.05c.32-.02.41.04.35.27-.07.28-1.25 4.84-.17 7.88.74 2.08 2.4 2.75 3.4 2.75 1.15 0 2.26-.87 2.85-2.17l.23.42c1.68 2.65 4.92 2.07 6.56-.18.37-.5.58-.94.58-.94.36 2.2 2.07 2.88 3.05 2.88 1.02 0 2-.42 2.78-2.28.03.82.08 1.49.16 1.7.05.13.34.3.56.37.93.34 1.88.18 2.24.11.24-.05.43-.25.46-.75.07-1.33.03-3.56.43-5.21.67-2.79 1.3-3.87 1.6-4.4.17-.3.36-.35.37-.03.01.64.04 2.52.3 5.05.2 1.86.46 2.96.65 3.3.57 1 1.27 1.05 1.83 1.05.36 0 1.12-.1 1.05-.73-.03-.31.02-2.22.7-4.96.43-1.79 1.15-3.4 1.41-4 .1-.21.15-.04.15 0-.06 1.22-.18 5.25.32 7.46.68 2.98 2.65 3.32 3.34 3.32 1.47 0 2.67-1.12 3.07-4.05.1-.7-.05-1.25-.48-1.25Z" fill="currentColor" fill-rule="evenodd"></path></g></svg>
+            </a>
+            <a data-e2e="tiktok-logo" class="tiktok-1431rw4-StyledLinkLogo e1an6zpe0" href="https://www.tiktok.com/@luisfernandosinticalaoli?lang=es"target="_blank" style="position: relative;">
+               <svg height="42" width="118" alt="TikTok"><use xlink:href="#svg-header-logo"></use></svg>
+                <strong>TikTok</strong>
+            </a>
+        </h1>
+        <select data-uia="language-picker" class="ui-select medium" id="lang-switcher-select" tabindex="0" placeholder="lang-switcher">
+            <option selected="" lang="es" value="/?locale=es-PE" data-language="es" data-country="PE">Español</option>
+            <option lang="en" value="/?locale=en-PE" data-language="en" data-country="PE">English</option></select>
+    </header>
+
+    <main class="main">
+
+        <article class="landing">
+            <h2 class="landing__h2">EN ESTA PAGINA ENCONTRARAN TODO LO QUE PUBLIQUE EN MI FACEBOOK.</h2>
+            <h3 class="landing__h3">Disfrutalo si desean.</h3>
+            <p class="landing__p ">¿Quieres ver algo puedes encontrarlo mas abajo si.</p>
+            <form action="#" class="landing__form">
+                <input class="landing__input"  placeholder="search" type="search" name="search" >
+                <input class="landing__submit" type="submit" value="Empezar">
+            </form>
+        </article>
+        <article class="specs specs--first">
+           <div class="specs__center">
+                <div class="specs__col">
+                    <h4 class="specs__h4">PARA LOS QUE ACABAN DE TERMINAR UNA RELACION</h4>
+                    <p class="specs__p"></p>
+                </div>
+                <div class="specs__col">
+                    <img alt="" class="specs__overlay">
+                    <video controls muted loop autoplay src="assets/nn.mp4" mute autoplay ></video>
+                </div>
+           </div>
+        </article>
+        <li class="faq__li">
+            <div class="faq__btn">
+                <span>ESTATUS </span>
+                <svg class="faq__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+            </div>
+            <div class="faq__info">
+                <p class="faq__p">"HOMBRE DE NACIMIENTO CABALLERO POR ELECCION"hay que saber diferenciarlos.</p>
+            </div>
+        </li>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">A QUE PELICULA TE RECUERDA</h4>
+                     <p class="specs__p">para mi seria CUESTION DE TIEMPO</p>
+                 </div>
+                 <div class="specs__col">
+                     <img alt="" class="specs__overlay">
+                     <video controls muted loop autoplay src="assets/a.mp4" mute autoplay ></video>
+                 </div>
+            </div>
+         </article>
+         <li class="faq__li">
+            <div class="faq__btn">
+                <span>ESTATUS </span>
+                <svg class="faq__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+            </div>
+            <div class="faq__info">
+                <p class="faq__p">SER MUJER es ser 
+                    -princesa a los 15
+                    -bella a los 20
+                    -pasional a los 35
+                    -inolvidable a los 40
+                    -y dama a los 60 HERMOSA TODA LA VIDA
+                </p>
+            </div>
+        </li>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">MYUSSIC</h4>
+                     <p class="specs__p"></p>
+                 </div>
+                 <div class="specs__col">
+                     <img alt="" class="specs__overlay">
+                     <video controls muted loop autoplay src="assets/d.mp4" mute autoplay ></video>
+                 </div>
+            </div>
+         </article>
+         <li class="faq__li">
+            <div class="faq__btn">
+                <span>ESTATUS </span>
+                <svg class="faq__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+            </div>
+            <div class="faq__info">
+                <p class="faq__p">NO... mi vida no es perfecta pero te digo algo "tiene momentos maravillosos"</p>
+            </div>
+        </li>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">LINDO ATARDECER</h4>
+                     <p class="specs__p"></p>
+                 </div>
+                 <div class="specs__col">
+                     <img alt="" class="specs__overlay">
+                     <video controls muted loop autoplay src="assets/ddd.mp4" mute autoplay ></video>
+                 </div>
+            </div>
+         </article>
+         <li class="faq__li">
+            <div class="faq__btn">
+                <span>ESTATUS</span>
+                <svg class="faq__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+            </div>
+            <div class="faq__info">
+                <p class="faq__p">me quedaba despierto hasta tarde .. imaginando todo tipo de escenario.. soñando con mi vida.. en ese momento todo parecia posible.. ahora nisiquiera sueño</p>
+            </div>
+        </li>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">SI ASI ES LA VIDA</h4>
+                     <p class="specs__p">hay que saber vivirla</p>
+                 </div>
+                 <div class="specs__col">
+                     <img alt="" class="specs__overlay">
+                     <video controls muted loop autoplay src="assets/f.mp4" mute autoplay ></video>
+                 </div>
+            </div>
+         </article>
+         <li class="faq__li">
+            <div class="faq__btn">
+                <span>ESTATUS</span>
+                <svg class="faq__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+            </div>
+            <div class="faq__info">
+                <p class="faq__p">El silencio separa mas que la distancia y las acciones reparan mas que las palabras</p>
+            </div>
+        </li>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">YA LLEGARA ALGUIEN MAS</h4>
+                     <p class="specs__p">MYUSSIC</p>
+                 </div>
+                 <div class="specs__col">
+                     <img alt="" class="specs__overlay">
+                     <video controls muted loop autoplay src="assets/g.mp4" mute autoplay ></video>
+                 </div>
+            </div>
+         </article>
+        <article class="specs inverso">
+           <div class="specs__center">
+                <div class="specs__col">
+                    <h4 class="specs__h4">#</h4>
+                    <p class="specs__p">#</p>
+                </div>
+                <div class="specs__col">
+                    <img src="assets/#" alt="Stranger Things" class="img">
+                </div>
+           </div>
+        </article>
+        <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">LO BONITO QUE ES LA VIDA</h4>
+                     <p class="specs__p"></p>
+                 </div>
+                 <div class="specs__col">
+                     <img alt="" class="specs__overlay">
+                     <video controls muted loop autoplay src="assets/gg.mp4" mute autoplay ></video>
+                 </div>
+            </div>
+         </article>
+         <li class="faq__li">
+            <div class="faq__btn">
+                <span>ESTATUS</span>
+                <svg class="faq__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+            </div>
+            <div class="faq__info">
+                <p class="faq__p">La belleza se marchita como una flor... ahi sabras que elegiste bien a la persona que se quedo contigo</p>
+            </div>
+        </li>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">UN LINDO ATARDECER</h4>
+                     <p class="specs__p"></p>
+                 </div>
+                 <div class="specs__col">
+                     <img alt="" class="specs__overlay">
+                     <video controls muted loop autoplay src="assets/ggg.mp4" mute autoplay ></video>
+                 </div>
+            </div>
+         </article>
+         <li class="faq__li">
+            <div class="faq__btn">
+                <span>ESTATUS</span>
+                <svg class="faq__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+            </div>
+            <div class="faq__info">
+                <p class="faq__p">Tienes que ampliar tus horizontes..solo hay una vida y es tu obligacion vivirla tan plena como puedas</p>
+            </div>
+        </li>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">AMISTADES</h4>
+                     <p class="specs__p"> VERDADERAS Y FALSAS</p>
+                 </div>
+                 <div class="specs__col">
+                     <img alt="" class="specs__overlay">
+                     <video controls muted loop autoplay src="assets/h.mp4" mute autoplay ></video>
+                 </div>
+            </div>
+         </article>
+         <li class="faq__li">
+            <div class="faq__btn">
+                <span>ESTATUS</span>
+                <svg class="faq__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+            </div>
+            <div class="faq__info">
+                <p class="faq__p">RECUERDA:que no podemos sanar lo que evitamos sentir</p>
+            </div>
+        </li>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">HAY QUE VIVIR AL MAXIMO</h4>
+                     <p class="specs__p">LA VIDA</p>
+                 </div>
+                 <div class="specs__col">
+                     <img alt="" class="specs__overlay">
+                     <video controls muted loop autoplay src="assets/hh.mp4" mute autoplay ></video>
+                 </div>
+            </div>
+         </article>
+         <li class="faq__li">
+            <div class="faq__btn">
+                <span>ESTATUS</span>
+                <svg class="faq__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+            </div>
+            <div class="faq__info">
+                <p class="faq__p">que se haga INFINITO todo aquello que te hace feliz</p>
+            </div>
+        </li>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">LLEGAN CUANDO NO LO ESPERAS</h4>
+                     <p class="specs__p">HO CUANDO NO LO BUSCAS</p>
+                 </div>
+                 <div class="specs__col">
+                     <img alt="" class="specs__overlay">
+                     <video controls muted loop autoplay src="assets/k.mp4" mute autoplay ></video>
+                 </div>
+            </div>
+         </article>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">Y ASI FUE MI EDUCACION DESDE </h4>
+                     <p class="specs__p">NIÑO</p>
+                 </div>
+                 <div class="specs__col">
+                     <img alt="" class="specs__overlay">
+                     <video controls muted loop autoplay src="assets/l.mp4" mute autoplay ></video>
+                 </div>
+            </div>
+         </article>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">UNA CANCION CREADA ATRAVEZ </h4>
+                     <p class="specs__p">DE UNA HISTORIA</p>
+                 </div>
+                 <div class="specs__col">
+                     <img alt="" class="specs__overlay">
+                     <video controls muted loop autoplay src="assets/m.mp4" mute autoplay ></video>
+                 </div>
+            </div>
+         </article>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">Y SI ES VERDAD</h4>
+                     <p class="specs__p"></p>
+                 </div>
+                 <div class="specs__col">
+                     <img alt="" class="specs__overlay">
+                     <video controls muted loop autoplay src="assets/ñ.mp4" mute autoplay ></video>
+                 </div>
+            </div>
+         </article>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">HAY PERSONAS QUE DEJAN </h4>
+                     <p class="specs__p">UNOS LINDOS RECUERDOS</p>
+                 </div>
+                 <div class="specs__col">
+                     <img alt="" class="specs__overlay">
+                     <video controls muted loop autoplay src="assets/s.mp4" mute autoplay ></video>
+                 </div>
+            </div>
+         </article>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">COMO TRATAR A LA MUJER</h4>
+                     <p class="specs__p">Algunas mujeres son dulces por naturaleza pero muchas otras hoy en dia confunden ser fuertes con volverse duras y la dureza no atrae a los hombres por que saben por experiencia que no es mas que un caparazón que oculta vulnerabilidad una mujer sensible que  se permite llorar , emocionarse se derrite y eso desarma a cualquier hombre si eres dulce sensible y lo haces reír  es todo tuyo se autentica cuando te relaciones con el olvídate de las normas lo que corresponde decir se tu misma espontanea imprevisible , eso siempre resulta irresistible se buena conversadora a los hombres si que les gusta hablar cuando esta en frente alguien que sabe escuchar se comprensiva inteligente flexible curiosa  ESTOY CONTANDO SECRETITOS DE LOS HOMBRES QUE NO SUELEN DECIR ASI DE LA ND pero las mujeres tienen que ser bellas y normales cuantas mujeres viven acomplejadas por que se sienten defectuosas cuando se comparan con las modelos y actrices de cuerpo perfecto creen que a los hombres solo les importa el fisico y la verdad es que les importa el fisico a primera vista pero cuando se trata de una relación seria no buscan muñecas inflables 🤭 lo que menos les termina importando es el cuerpo un hombre se va a enamorar de ti si cuando estan juntos siente que puede ser el mismo si se siente seguro al expresar sus sentimientos mas intimos pronto se va a dar cuenta que te extraña comienza a notar que tu presencia es cada vez mas indispensables cuando un hombre se siente cómodo y seguro a tu lado comienza a extrañarte y su amor por ti crese día a día y lo mas extraño es que ni siquiera sabe por que se siente asi lo que si sabe es que hay algo especial en ti algo que le provoca emociones que no sentia que nunca sintio con ninguna otra mujer el quiere estar en tus brazos y siempre y que no lo sueltes nunca asi que se que como buena mujer ocultas sentimientos profundos en el fondo de tu corazón pero los ojos siempre son ventanitas o las mirillas por las cuales alguien que te ama bien podrá espiar la mirada profunda es una forma de intimidad no todos saben utilizar y cuando alguien te mira directamente a los ojos desnuda tu alma y ve todo lo que hay en tu corazón asi que si tienes dudas solo te resta mirarlo directamente a los ojos si sostiene la mirada vas a saber exactamente lo que siente y después que lo compruebes quien será el que tenga que dar el primer paso no importa luego de una mirada así estas a un paso de un sincero y espontaneo te amo con todo mi corazón diga quien lo diga primero.</p>
+                 </div>
+            </div>
+         </article>
+        <article class="specs specs--first">
+           <div class="specs__center">
+                <div class="specs__col">
+                    <h4 class="specs__h4">CUANDO UNA MUJER</h4>
+                    <p class="specs__p">Cuando una mujer esta  Callada millones de cosas dan vueltas por su cabeza-cuando una mujer no esta discutiendo  está pensando detenidamente -cuando una mujer te mira con ojos melancólicos se esta preguntando por cuanto tiempo estarás cerca y también se pregunta que sucederá con ella si te abre su corazón y luego un día decides marcharte -cuando una mujer te responde estoy bien no le creas si se lo preguntas por segunda vez y te lo repito entonces es verdad -cuando una mujer te mira fijamente está deseando que sea suyo para siempre -cuando una mujer quiere verte todos los días quiere que la mimes y la sigas enamorando de apoco -cuando una mujer te dice te quiero o te amo es eso exactamente lo que quiere decir ella no suele regalar esas palabras tan fácilmente a cualquiera -cuando una mujer te dice te echo de menos nadie en este mundo puede extrañarte más que ella te parece complicada claro que lo es y justamente eso lo que la hace irresistible  así que muchachos que no saben conquistar a esa mujer irresistible prueben con decirle “únicamente voy a dejar de amarte cuando tenga evidencias claras de que alguien te ama tan solo un poquito más que yo” está bueno no “por mi parte te abrí mi corazón y te dejé pasar comencé por extrañarte cuando no te veía luego te empecé a necesitar te explorado y he comprobado que eres perfecta que encaja a la perfección con aquello que desde la eternidad siempre he amado imposible despertar juntos cada día pero estoy seguro que despertamos pensándonos” “ese beso que nunca te di es el que más extraño” es lindo para decirle eso a una chica que nunca besaste cómo es posible que pueda extrañar tanto a alguien que hasta hace tanto que hasta hace tan poco no conocía “apareciste sin avisar mi vida se completó y ahora finalmente todo tiene sentido no podría vivir sin ti gracias por existir de no haberte conocido te inventaría tal cual eres”  no pongan esa cara porque esos hombres existen.</p>
+                </div>
+           </div>
+        </article>
+        <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">CUIDATE</h4>
+                     <p class="specs__p">Cuida de no enamorarte solo de quien abre las puertas de tu corazón sino de quien tira las llaves y se encierra contigo , la  vida es corta perdona rápido no discutas por tonterías besa lento ama de verdad cela un poco no mucho Cela un poco ríete sin control y nunca dejes de sonreír por más extraño que sea el motivo puede ser que la vida no sea la fiesta que esperabas pero mientras que estés aquí tienes que bailar después de todo la vida no se mide no se mide en minutos se miden momentos el genial escritor Max lucado supo escribir vive como un niño juega mucho ríete mucho y déjale las preocupaciones a Dios no te olvides que todo lo bueno en esta vida siempre te despeina sabía eso todo lo bueno en la vida te despeina siempre siempre siempre correr -saltar- ducharte- bailar -dar a luz -nadar -las montañas rusas -el viento del verano -reír a carcajadas y hacer el amor todo eso te despeina así que Dios quiera que vivas con el cabello hecho un desastre a y en el caso que seas varón vuelvo a repetirte que a una mujer hay que tocarle el corazón no su cuerpo hay que robarle su atención no su virginidad y hay que hacerla reír no llorar y es así como sucede que de volar en soledad durante tantos años no sabes cómo sucedió pero de la noche a la mañana ya no concibes el hecho de viajar por tu vida sin esa persona es así como sucede sencillo y básico el amor no es aquello que queremos sentir es aquello que sentimos sin querer andabas caminando y terminaste por los Aires sin darte cuenta así que si no estás volando es que a lo mejor nunca te enamoraste hay que volar En resumen una vez que te das cuenta que algún día vas a irte de esta tierra apúrate en conocer a esa persona que logra hacerte feliz con cualquier tontería que te haga volar y apenas la veas dile te apuesto un beso a que vas a querer otro vamos a enamorarnos porque yo invito ☕☕</p>
+                 </div>
+            </div>
+         </article>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">UN HOMBRE ENAMORADO</h4>
+                     <p class="specs__p">ESTO VA PARA LOS HOMBRES HEE😉 cuando ella se enoje contigo y se vaya síguela cuando se quede mirando tus labios ese momento de besarla cuando te empuje o intente golpearte abrázala y no la dejes ir cuándo empieza maltratarte bésala y dile cuanto la amas cuando se quede callada pregúntale qué le sucede cuando te ignore dale tu atención cuando quieras besarla o abrazarla y se haga para atrás abrázala más fuerte todavía cuando la veas desarreglada dile que se ve hermosa cuando la veas llorando no le digas nada abrázala otra vez cuando la veas caminando corre hacia ella y abrázala por la cintura cuando esté asustada hazla sentir protegida cuando ponga su cabeza en tu hombro acaricia su cabello hazla reír siempre mucho cuando no te contesta por mucho tiempo asegúrate que todo esté bien EPA 😉cuando parezca que tiene frío dale tu saco cuando dice que te quiere en verdad te quiere más de lo que te imaginas cuando agarre tu mano agarra la mano de ella y juega con su dedos cuando te cuente un secreto guárdalo muy bien cuando te mire fijamente a los ojos no despegues tu mirada hasta que ella lo haga cuando le rompas el corazón te puede perdonar pero el dolor nunca se le va a ir quédate en el teléfono con ella aunque no estén diciendo nada  cuando le preguntes a ella si algo anda mal y te dice que no no le creas llama la déjale un mensaje antes que te vayas a dormir y apenas te despiertas quédate con ella cuando esté enferma todo el tiempo no se trata de preguntarle si está bien e ir que se trata de quedarte a su lado mirándola mientras duerme mira su película favorita aunque no te guste cuando estés cuando ella esté aburrida o triste invitar a salir creo que es importante hacerles saber que es importante en tu vida besarla bajo la lluvia  APRTE EL AMOR LO CREO DIOS  y el amor hay que vivirlo como caballero como hombres AL AMOR HAY QUE VIVIRLO Y HACER DELICADO POR QUE ESO DERRITE A LAS MUJERES</p>
+                 </div>
+            </div>
+         </article>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">EL AMOR ES COMO UNA MARIPOSA</h4>
+                     <p class="specs__p">el amor es como una mariposa mientras más la persigues más te evade no tienes que buscarlo simplemente te va a suceder si la deja volar al amor va ha  regresar a ti cuando menos lo esperes el amor puede hacerte feliz a veces duele pero el amor solo es especial cuando se lo entregas a alguien que realmente se lo merece el amor no es convertirse en la persona perfecta para alguien es encontrar a alguien que te ayude a ser la mejor persona que pueda ser alguien que descubre la mejor versión de ti nunca digas te amo si no te importa no regales esas palabras fácilmente nunca hables de sentimientos si en verdad no lo sientes nunca toques una vida sin pretender romper un corazón nunca mires a los ojos cuando todo lo que hace es mentir lo más cruel que 1 le puede hacer a otra persona es dejar que se enamore cuando no tiene la intención de correr los corazones rotos duran tanto como 1 desea y cortan tan profundamente como los dejas continuar yo creo que el desafío  no es como sobrevivir a un corazón roto sin aprender de ello recuerda que tu corazón no le pertenece a quien te lo daña si no a quien te lo repara no se trata de ser el primero sino el último que llega para quedarse y cuidarte el que se encierra contigo y tira las llaves eso es extraordinario</p>
+                 </div>
+            </div>
+         </article>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">LOS BESOS QUE NUNCA DI</h4>
+                     <p class="specs__p">Es una pena que los hombres muchas veces no se den cuenta que un beso para ellas puede ser el inicio o el fin de una relación😉🤗 un romántico termómetro dijo alguien muchas dicen solo espero que no bese mal y creen que el futuro esposo puede desvanecerse ante un beso mal dado es así o no es así a ellas les encanta besar es como recordar que el amor está vivo y para muchos es un acto más en el infinito juego del amor besan como loco cuando la conocen no importa si en 20-40- 60 años el inicio de toda relación siempre viene acompañado con besos cinematográficos pero con el pasar del tiempo y una vez conquistada la presa parece que los besos ya no son tan importantes no es necesario demostrar amor dicen ellos no exageres en público ni pensarlo eso para cuando éramos novios y los besos de cine se transforman en besos con el tiempo de piquitos de cariño ella suele dormirse con el recuerdo de los besos de cuando eran novios aquellos que le hacían arder los labios se reían con el corazón como solamente los que aman saben hacer el tiempo pasa los besos también se vuelven anticuados y lo raro es que no dicen que es cosa de viejos sino todo lo contrario "no seas loca eso es cosa de jóvenes ya no somos adolescentes" y por  increíble que parezca se olvidan de besar y no se dan cuenta que también se olvidan de decir te amo te quiero te necesito eres el complemento ideal te acuerdas cuando el te besaba y sentías que levantabas un pie en el piso era un reflejo natural e inconsciente como cerrar los ojos como abrazar que beso bien dado no viene acompañado de un cálido abrazo y ojos cerrados aquel que te esconde debajo de su protector hombro de ese hombre que te cuida pero también cuántos besos desperdiciados estériles con personas que no valían la pena que sabía de antemano que no iban a terminar en nada al final de la vida nunca te vas a arrepentir por los besos que diste y si por los que dejaste de dar por los que no tuviste valor de pedir o simplemente la audacia de robarlo nunca te vas a arrepentir de haber dicho 1000 veces te amo pero si vas a sufrir por aquella ocasión que no lo dijiste ni una sola vez nunca diste a aquel beso porque no te animaste y si esa resultaba ser la mujer de tu vida aaaa.... buena pregunta para un día como hoy¡ la cosa es que a lo mejor algunos dicen los besos que más extraño son aquellos que nunca di😊😉</p>
+                 </div>
+            </div>
+         </article>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">TODO SE TRATA DE VOLAR</h4>
+                     <p class="specs__p">Es válido preguntarse si estás enfermo o es una sensación de malestar por ejemplo también puedes dudar acerca si tienes ganas de almorzar o solo comerte una barra de cereal por ejemplo pero no puedes dudar si amas o no amas si aún dudas es porque no amas punto el asunto es pragmático lineal  hoy se me ocurrió enumerar una manera desprolija algunos síntomas que deberían padecer para saber si esa persona logró meterse en tu alma y adueñarse de tu corazón si estos  síntomas se cumplen quiere decir que estamos enamorados por ejemplo 
+                        -cuando amas de verdad  y miras a sus ojos todo a tu alrededor se detiene y deja de existir 
+                        -cuando amas profundamente sueles tener esas conversaciones que no quieres terminar pero que tampoco sabes como seguir 
+                        -cuando amas quisieras estar cerca de esa persona para protegerla  y cuidarla toda la vida y si no lo puedes hacer no hay un solo minuto en que no pienses en cómo estará solo quieres que sea muy feliz aunque no estés a su lado
+                        -cuando amas de verdad simplemente dice estoy feliz no me preguntes por qué   NO IMPORTA EL POR QUE CUANDO EXISTE EL CON QUIEN
+                        -cuando amas de verdad te quedas mirando a esa persona y te das cuenta que cada día te gusta más y serías capaz de cualquier cosa con tal de pasar toda una tarde charlando hablando de tonterías tomando un café en silencio juntos 
+                        Después todos son los pequeños detalles los que realmente enamoran enamórate en serio es cuando enamorarte en serio cuando de repente por ejemplo no se llega ese alguien de la nada y se hace indispensable hasta el más sencillo saludo de Buenos días cuando deseas una sonrisa cómplice un simple gesto de cariño el más efímero abrazo porque el más mínimo de los detalles importa y mucho aunque te cueste creerlo existe esa sola persona que entra a tu vida y se adiere a tu alma de manera permanente  cuando creas que has perdido todo siempre aparece esa persona que te ofrece todo lo que creíste perder y terminas convenciéndote que no se puede renunciar a aquello de lo cual 1 no puede dejar de pensar todos los días recuerda que el corazón no muere hasta que deja de latir y cuando muere los latidos no tienen sentido uno tiene que realmente latir por esa persona así que seas varón o mujer  y sepan que el amor es un regalo de Dios y que hay  que saber disfrutarlo.😊🤗😇</p>
+                 </div>
+            </div>
+         </article>
+         <article class="specs specs--first">
+            <div class="specs__center">
+                 <div class="specs__col">
+                     <h4 class="specs__h4">NO LA QUIERAS CAMBIAR</h4>
+                     <p class="specs__p">Cuando amas a alguien puedes ver sus defectos y los aceptas puedes ver sus fallas y quieres ayudarlo a ayudarla a superarlo al mismo tiempo esa persona ve tus propios defectos y los entiende porque encontraste a una persona maravillosa de acuerdo pero tampoco es perfecta encontraste tu alma gemela pero también los gemelos discuten y tienen diferencias Amar es poner en una balanza lo bueno y lo malo de esa persona y después amarla igual muchas veces oímos de personas que dicen que se enamoraron de alguien y que no pueden evitarlo y a veces suele suceder que nos estaban buscando de pronto se encontraron y eso es sencillamente maravilloso pero es solo el principio el amor nace de compartir de dar de recibir de intereses mutuos de sueños compartidos las relaciones siempre están vivas yo siempre digo que o se van haciendo más superficiales o más profundas pero nunca permanecen estáticas aunque suene lindo yo te amo como la primera vez no hay que amar más o menos porque las relaciones están en movimiento sí en movimiento perdón si la amas no la critiques solo escúchala con toda tu alma estimula a que hable no le interrumpas por el amor de Dios no la interrumpas al descargarse contigo y escucharse a sí misma a veces las mujeres encuentran alivio que necesita y resuelve sola sus propios problemas la mayoría de las veces sin tu intervención no la obligue a cambiar por su bien cuando en el fondo lo que deseas es que cambie para agradarte a ti {no uses eso que no me gusta no te pongas ese pantalón píntate el cabello no me gusta que te rías así }estas y otras frases a veces denotan falta de respeto hacia lo que tu pareja realmente es en esencia es una persona con no sé con actitudes con forma de pensar de vestir que la distinguen y la hacen asombrosamente única hay resistible y lo que menos quieres es qué oculte su verdadera esencia solo para ceder y no tener que discutir contigo acéptala como es no la obligues a hacer algo que ella no es ni hacer falsa ni a mentir cuando este tu lado ELLA ES UNICA no te lo olvides nunca y si no estás dispuesto a aceptar que su única búscate una más del montón déjala libre para que la enamore a alguien que la ame tal como es.😉</p>
+                 </div>
+            </div>
+         </article>
+        <div class="faq">
+           <div class="faq__center">
+                <h3 class="faq__h3">FRASES ESCRITAS</h3>
+                <ul class="faq__ul">
+                   
+                    <li class="faq__li">
+                        <div class="faq__btn">
+                            <span>#</span>
+                            <svg class="faq__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                        </div>
+                        <div class="faq__info">
+                            <p class="faq__p">#</p>
+                        </div>
+                    </li>
+                </ul>
+           </div>
+        </div>
+
+        <div class="register">
+            <p class="register__p">#</p>
+            <form class="register__form" action="#" method="post">
+                <input class="register__input"  type="email" placeholder="BUSCAR">
+                <input class="register__submit" type="submit" value="Empezar">
+            </form>
+        </div>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__center">
+            <div class="footer__fila">
+                <p class="footer__p"><WHATSAP:917563432>WHATSAP:917563432</WHATSAP:917563432></p>
+            </div>
+            <div class="footer__fila">
+                <ul class="footer__ul">
+                    <li class="footer__li"><a href="#" class="footer__a" title="Preguntas frecuentes">Preguntas frecuentes</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a" title="Centro de ayuda">Centro de ayuda</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a" title="Cuenta">Cuenta</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a" title="Zona de prensa">Zona de prensa</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a" title="Inversores">Inversores</a></li>
+                </ul>
+                <ul class="footer__ul">
+                    <li class="footer__li"><a href="#" class="footer__a" title="Empleo">Empleo</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a" title="Canjear tarjetas regalo">Canjear tarjetas regalo</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a" title="Comprar tarjetas regalo">Comprar tarjetas regalo</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a" title="Formas de ver">Formas de ver</a></li>
+                </ul>
+                <ul class="footer__ul">
+                    <li class="footer__li"><a href="#" class="footer__a" title="Términos de uso">Términos de uso</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a" title="Privacidad">Privacidad</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a" title="Preferencias de cookies">Preferencias de cookies</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a" title="Información corporativa">Información corporativa</a></li>
+                </ul>
+                <ul class="footer__ul">
+                    <li class="footer__li"><a href="#" class="footer__a" title="Contáctanos">Contáctanos</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a" title="Prueba de velocidad">Prueba de velocidad</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a" title="Avisos legales">Avisos legales</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a" title="Originales de Netflix">Originales de Netflix</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__select select">
+                <svg class="select__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+                </svg>
+                <div class="select__span">Español</span>
+                <!-- <ul class="select__ul">
+                    <li class="select__li">
+                        <a class="select__a" href="#" title="Español">Español</a>
+                    </li>
+                    <li class="select__li">
+                        <a class="select__a" href="#" title="English">English</a>
+                    </li>
+                </ul> -->
+            </div>
+           </div>
+            <div class="footer__fila brand">Netflix España</div>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
